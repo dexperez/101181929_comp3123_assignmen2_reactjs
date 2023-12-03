@@ -19,7 +19,7 @@ function App() {
       <Routes>        
         {loggedInUser ? (
             <>
-              <Route path='/employeeList' element={<EmployeeList setLoggedInUser={setLoggedInUser}/>} />
+              <Route path='/listEmployee' element={<EmployeeList setLoggedInUser={setLoggedInUser}/>} />
               <Route path="/addEmployee" element={<AddEmployee />} />
               <Route path="/updateEmployee/:_id" element={<UpdateEmployee />} />
               <Route path="/viewEmployee/:_id" element={<ViewEmployee />} />
