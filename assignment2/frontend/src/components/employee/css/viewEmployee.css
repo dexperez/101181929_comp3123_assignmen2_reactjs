@@ -1,0 +1,25 @@
+.empDetails-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.empDetails-container h2 {
+    color: #4caf50;
+}
+
+.emp-details {
+    margin-top: 20px;
+}
+
+.emp-details p {
+    margin: 8px 0;
+}
+
+p{
+    font-weight: bold;
+}

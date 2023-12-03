@@ -1,0 +1,68 @@
+/* Add space between navbar and employeelist-container */
+.employeelist-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+/* Update styles for buttons */
+.employeelist-container button {
+  background-color: #3498db; /* Update color for default buttons */
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+/* Add specific styles for each button */
+.employeelist-container button.update {
+  background-color: #2ecc71; /* Update color for update button */
+}
+
+.employeelist-container button.delete {
+  background-color: #e74c3c; /* Update color for delete button */
+}
+
+.employeelist-container button.view {
+  background-color: #f39c12; /* Update color for view button */
+}
+
+.employeelist-container button.add {
+  background-color: #9b59b6; /* Add color for add employee button */
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+thead {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+}
+
+button:hover {
+  opacity: 0.8;
+}
